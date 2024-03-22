@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="10">
+            <item index="0" class="java.lang.String" itemvalue="worldcloud" />
+            <item index="1" class="java.lang.String" itemvalue="jieba" />
+            <item index="2" class="java.lang.String" itemvalue="pdfplumber" />
+            <item index="3" class="java.lang.String" itemvalue="kornia" />
+            <item index="4" class="java.lang.String" itemvalue="aim" />
+            <item index="5" class="java.lang.String" itemvalue="fire" />
+            <item index="6" class="java.lang.String" itemvalue="contrastive_learner" />
+            <item index="7" class="java.lang.String" itemvalue="vector-quantize-pytorch" />
+            <item index="8" class="java.lang.String" itemvalue="einops" />
+            <item index="9" class="java.lang.String" itemvalue="retry" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
