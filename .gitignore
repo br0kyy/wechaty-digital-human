@@ -125,3 +125,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# 添加忽略
+.idea
+temp/input/*
+*.memory-card.json
