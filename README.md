@@ -19,7 +19,7 @@ npm i
 * 启动机器人
 
 ```
-node digital.js
+node app.js
 ```
 
 启动成功后会提示扫码登录，使用绿泡泡扫码登录即可
