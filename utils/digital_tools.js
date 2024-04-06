@@ -1,5 +1,5 @@
 import FormData from "form-data"
-import cfg from "../config/config.js"
+import cfg from "../config/dev.js"
 import axios from "axios"
 
 /**

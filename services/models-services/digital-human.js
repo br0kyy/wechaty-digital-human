@@ -23,8 +23,11 @@ async function gen(message) {
             const name = uuidv4() // 生成唯一的文件名
             const videoFile = FileBox.fromBuffer(apiResponse, name + ".mp4") // 将视频数据封装成文件盒
             await message.say(videoFile) // 将生成的数字人视频发送给用户
+            return
         } catch (error) {
-            console.error("等待媒体文件时出错：", error.message)
+            message.say("生成数字人时出错，请稍后再试。")
+            console.error("生成数字人时出错：", error.message)
+            return
         }
     } else if (message.text() === "男" || message.text() === "女") {
         // 处理用户选择的性别
