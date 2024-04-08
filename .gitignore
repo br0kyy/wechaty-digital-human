@@ -128,5 +128,5 @@ dist
 
 # 添加忽略
 .idea
-temp/input/*
+file/digital_human/*
 *.memory-card.json
